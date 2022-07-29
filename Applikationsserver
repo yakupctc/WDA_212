@@ -1,0 +1,12 @@
+Unterschied zu Web-Servern
+Während ein Application Server und ein Web-Server auf den ersten Blick ähnlich erscheinen, unterscheiden sie sich doch erheblich voneinander. Der Unterschied liegt im Grunde darin, dass der Application Server die Geschäftslogik für Apps über eine Reihe von Protokollen bereitstellt.
+Ein Web-Server hingegen bearbeitet HTTP-Anfragen, beantwortet und verarbeitet diese, um Website-Funktionen auszuführen, und hostet die Website sowie speichert deren statischen Inhalt wie Bilder, Javascript, CSS und HTML-Seiten. In der Regel unterstützt ein Web-Server keine Transaktionen oder Datenbank-Verbindungspools, bietet jedoch Fehlertoleranz- und Skalierbarkeitsfunktionen wie Caching, Clustering und Lastenausgleich.
+
+
+- Server in einem Netzwerk, der Anwendungen zur Verfügung stellt. Wenn ein Web-Server integriert ist, kann er auch die dafür typischen Dienste verarbeiten
+- Teil eines Netzwerks, in der Regel sind auf einem Application Server verschiedene Anwendungsprogramme wie zum Beispiel Office-Programme, aber auch beispielsweise die Adressverwaltung installiert. Darauf kann ein Client direkt zugreifen und sie nutzen
+- Darüber hinaus ermöglicht ein Application Server seinen Usern die Ausführung von Transaktionen, spielt er eine große Rolle bei der Authentifizierung der User, um Zugang zu Datenbanken und Verzeichnissen mit (firmen)sensiblen Daten zu erhalten
+- kommen idealerweise dann zum Einsatz, wenn es notwendig wird, Datenbanken und Server zu integrieren
+
+Arten
+Zu den beliebten Plattformen für Application Server gehören unter anderem „J2EE“, „Weblogic“, „Glassfish“, die „JBoss Enterprise Application Platform“, „Apache Tomcat“ und „Apache Geronimo“. Je nachdem, zu welchem Zweck sich der Application Server im Einsatz befindet, kann er auf verschiedene Arten klassifiziert werden, zum Beispiel als Web-Server, Datenbank-Application-Server, Allzweck-Application-Server oder Unternehmens-Application-Server.
